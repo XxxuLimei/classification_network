@@ -1,6 +1,6 @@
 ## 0405：  
 - LeNet的网络结构：  
-！[LeNet](https://github.com/XxxuLimei/classification_network/blob/main/LeNet/WeChat%20Image_20230405140000.png)  
+![LeNet](https://github.com/XxxuLimei/classification_network/blob/main/LeNet/WeChat%20Image_20230405140000.png)  
 根据该网络参数，自己编写model.py文件；  
 - 很好笑，预测的时候，使用飞机图片，预测出来是cat  
 ```
