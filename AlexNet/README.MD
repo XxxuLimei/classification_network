@@ -37,3 +37,9 @@ cuda:0
 [epoch 10] train_loss: 0.828 test_accuracy: 0.720
 Finished Training!
 ```  
+- 预测的类别是对的，但是概率有点低。  
+![](https://github.com/XxxuLimei/classification_network/blob/main/AlexNet/fly.jpg)  
+```
+(base) xilm@xilm-MS-7D17:~/python_file/img_classification$ /home/xilm/anaconda3/bin/python /home/xilm/python_file/img_classification/predict.py
+tulips 0.4724731743335724
+```  
