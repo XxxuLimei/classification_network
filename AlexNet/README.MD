@@ -1,6 +1,6 @@
 ## 0405:  
 - 网络结构如下：  
-!(AlexNet)[https://github.com/XxxuLimei/classification_network/blob/main/AlexNet/WeChat%20Image_20230405171608.png]  
+![AlexNet](https://github.com/XxxuLimei/classification_network/blob/main/AlexNet/WeChat%20Image_20230405171608.png)  
 - 训练过程如下：  
 ```
 (base) xilm@xilm-MS-7D17:~/python_file/img_classification$ /home/xilm/anaconda3/bin/python /home/xilm/python_file/img_classification/train.py
