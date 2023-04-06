@@ -1,6 +1,8 @@
 ## 0406：  
 - VGG网络结构：  
-
+![](https://github.com/XxxuLimei/classification_network/blob/main/VGG/block.png)
+- 网络参数：  
+![](https://github.com/XxxuLimei/classification_network/blob/main/VGG/WeChat%20Image_20230405171608.png)  
 - 训练过程如下：  
 ```
 (base) xilm@xilm-MS-7D17:~/python_file/img_classification$ /home/xilm/anaconda3/bin/python /home/xilm/python_file/img_classification/train.py
@@ -98,6 +100,7 @@ cuda:0
 Finished Training!
 ```  
 - 测试结果很无语，预测成蒲公英了。。。大网络果然需要预训练啊  
+![](https://github.com/XxxuLimei/classification_network/blob/main/VGG/fly.jpg)  
 ```
 (base) xilm@xilm-MS-7D17:~/python_file/img_classification$ /home/xilm/anaconda3/bin/python /home/xilm/python_file/img_classification/predict.py
 dandelion 0.3050488829612732
