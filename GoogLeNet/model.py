@@ -9,7 +9,7 @@ class GoogLeNet(nn.Module):
 
         self.conv1 = BasicConv2d(3, 64, kernel_size=7, stride=2, padding=3)
         self.maxpool1 = nn.MaxPool2d(3, stride=2, ceil_mode=True)
-        self.conv2 = BasicConv2d(64, 64, kernel_size=3)
+        self.conv2 = BasicConv2d(64, 64, kernel_size=3, padding=1)
         self.conv3 = BasicConv2d(64, 192, kernel_size=3, padding=1)
         self.maxpool2 = nn.MaxPool2d(3, stride=2, ceil_mode=True)
 
@@ -130,7 +130,7 @@ class Inception(nn.Module):
 
 class InceptionAux(nn.Module):
     def __init__(self, in_channels, num_classes):
-        super(Inception, self).__init__()
+        super(InceptionAux, self).__init__()
         self.averagePool = nn.AvgPool2d(kernel_size=5, stride=3)
         self.conv = BasicConv2d(in_channels, 128, kernel_size=1)
         self.fc1 = nn.Linear(128*4*4, 1024)
