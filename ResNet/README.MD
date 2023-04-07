@@ -1,8 +1,8 @@
 ## 0407：  
 ResNet网络结构：  
-![]()  
+![](https://github.com/XxxuLimei/classification_network/blob/main/ResNet/1_6hF97Upuqg_LdsqWY6n_wg.png)  
 ResNet网络参数：  
-![]()  
+![](https://github.com/XxxuLimei/classification_network/blob/main/ResNet/resnet.png)  
 - 训练日志：  
 以下是加预训练的情况。  
 ```
