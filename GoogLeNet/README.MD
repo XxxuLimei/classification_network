@@ -69,6 +69,11 @@ cuda:0
 [epoch 30] train loss: 0.826 test_accuracy: 0.824
 Finished Training!
 ```  
+测试图片：  
+![](https://github.com/XxxuLimei/classification_network/blob/main/GoogLeNet/fly.jpg)  
 测试日志：  
 ```
+(base) xilm@xilm-MS-7D17:~/python_file/img_classification$ /home/xilm/anaconda3/bin/python /home/xilm/python_file/img_classification/predict.py
+tulips 0.544565737247467
 ```  
+可以看出，结果预测正确，但是概率仍然不高。
